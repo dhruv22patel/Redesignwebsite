@@ -1,11 +1,10 @@
 <template>
   <div>
     <v-content>
-      It Worked!
+      <navbar/>
     </v-content>
   </div>
 </template>
-
 <script>
 </script>
 
