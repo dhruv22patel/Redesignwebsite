@@ -7,7 +7,7 @@
     <v-img
       height="250"
       src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
-    ></v-img>
+    ></v-img><!-- for the image-->
 
     <v-card-title>Cafe Badilico</v-card-title>
 
@@ -17,15 +17,15 @@
         class="mx-0"
       >
         <v-rating
-          :value="4.5"
+          :value="2.5"
           color="amber"
           dense
           half-increments
           readonly
           size="14"
-        ></v-rating>
+        ></v-rating><!-- ratings-->
 
-        <div class="grey--text ml-4">4.5 (413)</div>
+        <div class="grey--text ml-4">2.5 (413)</div>
       </v-row>
 
       <div class="my-4 subtitle-1">
@@ -44,7 +44,7 @@
         v-model="selection"
         active-class="deep-purple accent-4 white--text"
         column
-      >
+      ><!-- selection for the time slots-->
         <v-chip>5:30PM</v-chip>
 
         <v-chip>7:30PM</v-chip>
@@ -60,7 +60,7 @@
         color="deep-purple lighten-2"
         text
         @click="reserve"
-      >
+      ><!-- reserve button-->
         Reserve
       </v-btn>
     </v-card-actions>
@@ -78,8 +78,8 @@
       reserve () {
         this.loading = true
 
-        setTimeout(() => (this.loading = false), 5000)
+        setTimeout(() => (this.loading = true), 5000)
       },
     },
   }
-</script>
+</script><!-- setTimeout(this.loading=true)-ever loading-->

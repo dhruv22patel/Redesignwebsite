@@ -1,7 +1,8 @@
 <template>
   <div>
     <v-content>
-      <navbar/>
+      <Form/>
+      <box/>
     </v-content>
   </div>
 </template>

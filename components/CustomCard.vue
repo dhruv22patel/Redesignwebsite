@@ -25,7 +25,7 @@
       >
         Explore
       </v-btn>
-
+      
       <v-spacer></v-spacer>
 
       <v-btn

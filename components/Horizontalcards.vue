@@ -1,12 +1,12 @@
 <template>
   <v-card
-    max-width="400"
+    max-width="620"
     class="mx-auto"
   >
     <v-system-bar
-      color="blue darken-2"
+      color="green darken-2"
       dark
-    >
+    ><!-- system bar-->
       <v-spacer></v-spacer>
 
       <v-icon>mdi-window-minimize</v-icon>
@@ -18,7 +18,7 @@
 
     <v-app-bar
       dark
-      color="blue"
+      color="green"
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
@@ -32,12 +32,12 @@
     </v-app-bar>
 
     <v-container>
-      <v-row dense>
+      <v-row dense><!-- the space between the cards-->
         <v-col cols="12">
           <v-card
             color="#385F73"
             dark
-          >
+          ><!-- first card-->
             <v-card-title class="headline">Unlimited music now</v-card-title>
 
             <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle>
@@ -51,8 +51,8 @@
         <v-col
           v-for="(item, i) in items"
           :key="i"
-          cols="12"
-        >
+          cols="6"
+        ><!-- cols for the width of the card, v-for is used for -->
           <v-card
             :color="item.color"
             dark
@@ -69,11 +69,11 @@
 
               <v-avatar
                 class="ma-3"
-                size="125"
+                size="60"
                 tile
               >
                 <v-img :src="item.src"></v-img>
-              </v-avatar>
+              </v-avatar><!-- used for the images-->
             </div>
           </v-card>
         </v-col>
@@ -90,7 +90,7 @@
           color: '#F7BC00',
           src: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Foster_the_People_Pumped_Up_Kicks_logo.png',
           title: 'Pumped Up Kids',
-          artist: 'Foster the People',
+          artist:'Foster the People',
         },
         {
           color: '#952175',
@@ -107,4 +107,4 @@
       ],
     }),
   }
-</script>
+</script><!-- first second and third card done through java script the images are sourced from google -->

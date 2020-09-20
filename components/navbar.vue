@@ -12,12 +12,15 @@
 
     <v-btn value="Settings">
       <span>Settings</span>
-      <v-icon>mdi-heart</v-icon>
+      <v-icon>mdi-wrench</v-icon>
+
+
     </v-btn>
 
-    <v-btn value="nearby">
+    <v-btn value="Settings">
       <span>Parental control</span>
-      <v-icon>mdi-map-marker</v-icon>
+      <v-icon>mdi-account</v-icon>
+
     </v-btn>
   </v-bottom-navigation>
 </template>
