@@ -1,5 +1,5 @@
 <template>
-  <v-container class="grey lighten-5">
+  <v-container class="black">
     <v-row no-gutters>
       <v-col
         v-for="n in 12"
@@ -7,8 +7,8 @@
         cols="12"
         md="12"
         sm="12"
-        xs="3"
-      >
+        xs="3">
+        
         <v-card
           class="pa-2"
           outlined

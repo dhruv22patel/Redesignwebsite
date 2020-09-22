@@ -1,8 +1,13 @@
 <template>
   <v-card class="overflow-hidden" style="background-color: #2B1031;">
+    <v-card class="pa-2" style="background-color: #220B27;"
+    >
     <v-app-bar
       relative
-      color="#220B27">
+      color="#220B27"
+      flat
+      >
+      
         <template>
           <img
             class="VuetifyLogo"
@@ -11,15 +16,17 @@
         </template>
           <style>
           .VuetifyLogo {
-            height: 50px;
-            width: 70px;}
+            height: 85px;
+            width: 120px;}
           </style>
-          
-          <v-toolbar-title></v-toolbar-title>
-          <v-spacer></v-spacer>
-            <box/>  <!--searchbox-->
           <v-spacer></v-spacer>
           
+        <v-card class="mt-7 pa-0" style="background-color: #220B27;" flat>
+
+            <box/>  
+
+        </v-card>
+          <v-spacer></v-spacer>
             <v-btn icon>
               <v-icon>mdi-magnify</v-icon>
             </v-btn>
@@ -33,23 +40,22 @@
               <Parentalcontrol/>
             </v-btn>
             
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-    </v-app-bar>
-  
-                
-
-
+       <v-app-bar-nav-icon></v-app-bar-nav-icon>
+    
+        </style>
+      </v-app-bar>
+    </v-card>
                 
     <template >
-    
-      </style>
+      <v-card flat>
       <v-bottom-navigation
         :value="activeBtn"
         color="white"
         horizontal
         background-color="#220B27"
         grow
-        max-width="1600">
+        max-width="1600"
+        >
         
         <v-btn>
           <span>Home</span>
@@ -69,6 +75,7 @@
 
 
       </v-bottom-navigation>
+    </v-card>
     </template>
 
       <script>
