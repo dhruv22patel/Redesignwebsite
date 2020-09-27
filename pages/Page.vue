@@ -1,12 +1,12 @@
 <template>
-  <v-card class="overflow-hidden" style="background-color: #2B1031;">
-    <v-card class="pa-2" style="background-color: #220B27;"
-    >
-    <v-app-bar
-      relative
-      color="#220B27"
-      flat
-      >
+
+  <v-card class="overflow-hidden" style="background-color: #2B1031; ">
+    <v-card class="pa-2" style="background-color: #220B27;">
+      <v-app-bar
+        relative
+        color="#220B27"
+        flat
+        >
       
         <template>
           <img
@@ -39,15 +39,17 @@
             <v-btn icon>
               <Parentalcontrol/>
             </v-btn>
+          
             
        <v-app-bar-nav-icon></v-app-bar-nav-icon>
     
         </style>
       </v-app-bar>
     </v-card>
+   
                 
     <template >
-      <v-card flat>
+      <v-card flat elevation="0">
       <v-bottom-navigation
         :value="activeBtn"
         color="white"
@@ -55,6 +57,7 @@
         background-color="#220B27"
         grow
         max-width="1600"
+        
         >
         
         <v-btn>
@@ -77,6 +80,7 @@
       </v-bottom-navigation>
     </v-card>
     </template>
+   
 
       <script>
         export default {
@@ -92,9 +96,11 @@
 
     
       <v-container> <!--style="height: 1500px;"-->
+        <v-card class="xs-12 md-2 ">
         <slide/>
+        </v-card>
       </v-container>
-            
+    
             
           
       <v-container>

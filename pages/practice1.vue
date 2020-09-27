@@ -70,7 +70,7 @@
     <v-col
     v-for="i in 1"
     :key=i
-    cols="12"
+    cols="4"
     md="4"
     >
 

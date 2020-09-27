@@ -2,8 +2,7 @@
   <v-form>
     <v-container>
       <v-row>
-       <v-col md="200" >
-       <v-spacer></v-spacer>
+        <v-col>
           <v-text-field
             solo
             light
