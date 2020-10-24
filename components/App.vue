@@ -9,7 +9,10 @@
         flat
         >
     
-      <v-col>
+      <v-col
+      cols="1"
+      md="12"
+      sm="10">
        <VuetifyLogo/>
       </v-col>
           

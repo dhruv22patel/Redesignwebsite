@@ -12,12 +12,13 @@
       scroll-threshold="500"
     >
     <template>
+  
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
     src="zee5logo11.png"
   >
-</template>
+  </template>
 
 <style>
 .VuetifyLogo {

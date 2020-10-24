@@ -2,7 +2,7 @@
   <!--Your App Starts Here -->
   <v-app id="inspire">
     
-   <v-card class="overflow-hidden" >
+   <v-card class="overflow-hidden">
       
       <App/>
       
