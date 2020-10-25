@@ -1,32 +1,4 @@
-<!--<template>
-  <v-container style>
-    <v-btn
-    icon
-      @click="overlay = !overlay"
-    >
-    <v-icon>mdi-account</v-icon>
-      
-    </v-btn>
-
-    <v-overlay :value="overlay">
-      <v-btn
-        icon
-        @click="overlay = false"
-      >
-        <v-icon>mdi-close</v-icon>
-      </v-btn>
-    </v-overlay>
-</v-container>  
-</template>
-
-<script>
-  export default {
-    data: () => ({
-      overlay: false,
-    }),
-  }
-</script>-->
-<template>
+<template><!-- parental control settings(button) -->
   <v-row justify="center">
     <v-dialog v-model="dialog" width="600px">
       <template v-slot:activator="{ on, attrs }">
@@ -35,7 +7,7 @@
           v-bind="attrs"
           v-on="on"
         >
-         <v-icon>mdi-account</v-icon>
+         <v-icon>mdi-account</v-icon><!-- icon -->
         </v-btn>
       </template>
       <v-card>

@@ -10,7 +10,7 @@
         >
 
     
-    <v-row>
+    <v-row><!--ZEE5 logo -->
 
        <VuetifyLogo/>
 
@@ -23,7 +23,7 @@
                     cols="12"
                     md="8"
                     sm="12"
-                    >
+                    ><!-- search box -->
                     <v-text-field
                       solo
                       light
@@ -48,11 +48,11 @@
             <v-btn icon>
               <v-icon>mdi-wrench</v-icon>
             </v-btn>
-             <v-btn icon>
+             <v-btn icon><!--Parental control button -->
               <Parentalcontrol/>
             </v-btn>
 
-
+<!-- hamburger menu button -->
        <v-app-bar-nav-icon></v-app-bar-nav-icon>
           
 

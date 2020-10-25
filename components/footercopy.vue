@@ -13,7 +13,7 @@
     >
 
       
-      <v-card-text class="white--text">
+      <v-card-text class="white--text"><!-- start of the footer -->
         About us 
         <br><br>Help Center
         <br><br>Privacy Policy 
@@ -21,7 +21,7 @@
       </v-card-text>
       
                 <v-row>
-                <v-col>
+                <v-col><!-- list of the shows and the movies -->
                          <v-card-text class="white--text pt-0">
                           <v-list-item three-line>
                           <v-list-item-content>
@@ -98,7 +98,7 @@
     </v-card>
   </v-footer>
 </template>
-
+<!--social media -->
 <script>
   export default {
     data: () => ({

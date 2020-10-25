@@ -1,4 +1,4 @@
-<template>
+<template><!--main carousel -->
 
   <v-carousel
   class="responsive3"
@@ -7,7 +7,7 @@
   interval="4000"
   hide-delimiters
   
-  show-arrows-on-hover="false"
+  show-arrows-on-hover="false" 
   
   
   >
@@ -26,7 +26,7 @@
   </v-carousel>
 
 </template>
-
+<!--Advertising of the shows and the movies -->
 <script>
   export default {
     data () {

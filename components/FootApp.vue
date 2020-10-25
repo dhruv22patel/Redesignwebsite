@@ -9,7 +9,7 @@
           max-width="1600"
           
           >
-          
+          <!-- second step of the header -->
           <v-btn>
             <span>Home</span>
           </v-btn>
