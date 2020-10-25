@@ -4,12 +4,12 @@
     
    <v-card class="overflow-hidden">
       
-      <App/>
+      <App/> <!-- header -->
       
      
         
         
-          <FootApp/>
+          <FootApp/> <!--thing bellow header -->
    </v-card>
        
 
@@ -35,7 +35,7 @@ export default {}
   }
 
    #inspire {
-    background-color: rgb(64, 0, 78);
+    background-color: rgb(42, 18, 48);
     color: rgb(0, 0, 0);
   }
 </style>

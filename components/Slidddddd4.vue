@@ -1,12 +1,12 @@
 <template>
-<v-card style="background-color: #2B1031">
-      <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)">
-        Top on ZEE5
+<v-card style="background-color: #2B1031" flat>
+      <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)" class="font-weight-thin">
+       <subtitle-1> Top on ZEE5</subtitle-1>
       </v-container>
 
 
 
-      <v-container style="height: 320px;">
+      <v-container style="max-height: 320px; ">
       <v-row>
         <v-col>
         <v-carousel
@@ -57,7 +57,7 @@
               </v-flex>
               </v-col>
               <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">
@@ -110,14 +110,14 @@
       </v-container>
 
 
-      <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)">
+      <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)" class="font-weight-thin">
 
-        Trending on ZEE5
+        <subtitle-1>Trending on ZEE5</subtitle-1>
 
       </v-container>
 
 
-      <v-container style="height: 310px;">
+      <v-container style="max-height: 310px;">
         <v-carousel
           hide-delimiters
           hide-delimiter-background
@@ -130,7 +130,7 @@
             <v-layout>
            
               <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">             
@@ -141,7 +141,7 @@
               </v-flex>
               </v-col>
               <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">
@@ -152,7 +152,7 @@
               </v-flex>
               </v-col>
               <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">
@@ -163,7 +163,7 @@
               </v-flex>
               </v-col>
                   <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">
@@ -214,8 +214,8 @@
 
 
 
-      <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)">
-        Popular on ZEE5
+      <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)" class="font-weight-thin">
+       <subtitle-1> Popular on ZEE5</subtitle-1>
       </v-container>
 
 
@@ -229,7 +229,7 @@
           <v-carousel-item :key="i" v-for="i in 2">
             <v-layout>
               <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">
@@ -240,7 +240,7 @@
               </v-flex>
               </v-col>
               <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">
@@ -251,7 +251,7 @@
               </v-flex>
               </v-col>
               <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">
@@ -263,7 +263,7 @@
               </v-flex>
               </v-col>
                <v-col
-                  cols="4"
+                  cols="5"
                   md="3"
                   sm="4"
                   lg="2">

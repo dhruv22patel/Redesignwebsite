@@ -2,6 +2,7 @@
   <v-footer
     dark
     padless
+    class="mt-lg-16 mt-sm-20 mt-8"
     
   >
     <v-card
@@ -10,8 +11,83 @@
       class="black -1 white--text text-center"
     
     >
-      <v-card-text>
-        <v-btn
+
+      
+      <v-card-text class="white--text">
+        About us 
+        <br><br>Help Center
+        <br><br>Privacy Policy 
+        <br><br>Parental Control
+      </v-card-text>
+      
+                <v-row>
+                <v-col>
+                         <v-card-text class="white--text pt-0">
+                          <v-list-item three-line>
+                          <v-list-item-content>
+                            <v-list-item-title>ZEE5 Original</v-list-item-title>
+                            <v-list-item-subtitle>
+                             State of Siege: 26/11
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              XXX
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              Menatalhood
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              Rangbaaz
+                            </v-list-item-subtitle>
+                          </v-list-item-content>
+                        </v-list-item>
+                    </v-card-text>
+                </v-col>
+                <v-col>
+                         <v-card-text class="white--text pt-0">
+                          <v-list-item three-line>
+                          <v-list-item-content>
+                            <v-list-item-title>Club Original</v-list-item-title>
+                            <v-list-item-subtitle>
+                             Fittrat
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              Jamai 2.0
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              Karrle Tu Bhi Mohabbat
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              Baarish
+                            </v-list-item-subtitle>
+                          </v-list-item-content>
+                        </v-list-item>
+                    </v-card-text>
+                </v-col>
+                <v-col>
+                         <v-card-text class="white--text pt-0">
+                          <v-list-item three-line>
+                          <v-list-item-content>
+                            <v-list-item-title>Premium ZEE5 Original</v-list-item-title>
+                            <v-list-item-subtitle>
+                             Mafia
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              REJECT
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              LaalBazaar
+                            </v-list-item-subtitle>
+                            <v-list-item-subtitle>
+                              Rangbaaz
+                            </v-list-item-subtitle>
+                          </v-list-item-content>
+                        </v-list-item>
+                    </v-card-text>
+                </v-col>
+                </v-row>
+
+      <v-divider></v-divider>
+      <v-btn
           v-for="icon in icons"
           :key="icon"
           class="mx-4 white--text"
@@ -19,17 +95,6 @@
         >
           <v-icon size="24px">{{ icon }}</v-icon>
         </v-btn>
-      </v-card-text>
-
-      <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </v-card-text>
-
-      <v-divider></v-divider>
-
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
-      </v-card-text>
     </v-card>
   </v-footer>
 </template>
