@@ -42,7 +42,7 @@
 
           <style>
           .VuetifyLog {
-            height: auto;
+            height: 60px;
             max-width: 170px;
           }
           </style>
