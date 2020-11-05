@@ -1,7 +1,7 @@
 <template>
 
 <v-card style="background-color: #2B1031" flat>
-      <v-container style="max-height: 406px;"> <!-- container for the main carousel -->
+      <v-container style="max-height: 406px;"> <!-- container for the main carousel the max height of the main carousel is fixed to 406px -->
        <v-row>
         <v-col
             cols="12"
@@ -9,9 +9,9 @@
             sm="12"
             
             >
-            <v-card flat>
+            <v-card flat><!-- for the flat look that goes on through the website -->
               
-              <slide/><!-- main carousel  -->
+              <Carousel/><!-- main carousel  -->
           </v-card>
          </v-col>
         </v-row>
@@ -19,7 +19,7 @@
  
     <v-container>        
           
-     <Slidddddd4/>  <!-- secondary Carousels (the small thumbnails-->
+     <Sliders/>  <!-- secondary Carousels (the small thumbnails)-->
    
     </v-container>
     

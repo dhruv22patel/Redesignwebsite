@@ -2,27 +2,58 @@
   <v-footer
     dark
     padless
-    class="mt-lg-16 mt-sm-20 mt-8"
-    
-  >
+    class="mt-lg-18 mt-sm-12 mt-8 black"><!-- Padless footer for beter responsiveness-->
     <v-card
       flat
       tile
-      class="black -1 white--text text-center"
-    
+      class="black -1 white--text text-left"
+      style="background-color: #220B27"
     >
 
       
-      <v-card-text class="white--text"><!-- start of the footer -->
+      <v-card-text class="white--text ml-4"><!-- start of the footer -->
+      <v-row>
+        <v-col
+        md="7"
+        cols="4">
+        <p class="font-weight-black"><!-- thick font(roboto)-->
         About us 
         <br><br>Help Center
         <br><br>Privacy Policy 
         <br><br>Parental Control
+        </p>
+        </v-col>
+        <v-col>
+          <template>
+            
+            <img
+              class="VuetifyLog"
+              alt="Vuetify Logo"
+              src="logo2222-01.png"
+            ><!--apple store logo -->
+              <img
+              class="VuetifyLog"
+              alt="Vuetify Logo"
+              src="logo2222-02.png"
+            ><!-- play store logo-->
+            
+            
+            </template>
+
+          <style>
+          .VuetifyLog {
+            height: auto;
+            max-width: 170px;
+          }
+          </style>
+        </v-col>
+      </v-row>
       </v-card-text>
-      
+    </v-card>
+    <v-card class="black -1 white--text text-left">
                 <v-row>
                 <v-col><!-- list of the shows and the movies -->
-                         <v-card-text class="white--text pt-0">
+                       <p class="font-weight-thin">  <v-card-text class="white--text pt-0">
                           <v-list-item three-line>
                           <v-list-item-content>
                             <v-list-item-title>ZEE5 Original</v-list-item-title>
@@ -41,8 +72,11 @@
                           </v-list-item-content>
                         </v-list-item>
                     </v-card-text>
+                       </p>
                 </v-col>
+
                 <v-col>
+                  <p class="font-weight-thin">
                          <v-card-text class="white--text pt-0">
                           <v-list-item three-line>
                           <v-list-item-content>
@@ -62,8 +96,11 @@
                           </v-list-item-content>
                         </v-list-item>
                     </v-card-text>
+                    </p>
                 </v-col>
+      
                 <v-col>
+                  <p class="helvetica-weight-thin">
                          <v-card-text class="white--text pt-0">
                           <v-list-item three-line>
                           <v-list-item-content>
@@ -83,18 +120,24 @@
                           </v-list-item-content>
                         </v-list-item>
                     </v-card-text>
+                  </p>
                 </v-col>
                 </v-row>
 
       <v-divider></v-divider>
-      <v-btn
+      <v-card-text style="text-align: center">
+        
+        <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4 white--text"
+          class="mx-5 white--text"
           icon
         >
-          <v-icon size="24px">{{ icon }}</v-icon>
+          <v-icon size="34px">
+            {{ icon }}
+          </v-icon>
         </v-btn>
+      </v-card-text>
     </v-card>
   </v-footer>
 </template>

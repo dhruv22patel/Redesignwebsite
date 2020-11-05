@@ -1,7 +1,7 @@
-<template><!-- secondary carousel -->
-<v-card style="background-color: #2B1031" flat>
+<template><!-- slider -->
+<v-card style="background-color: #2B1031" flat> <!--Background of the slider in order to match the one with the website -->
       <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)" class="font-weight-thin">
-       <subtitle-1> Top on ZEE5</subtitle-1>
+      <p class="font-weight-thin"><subtitle-1> Top on ZEE5</subtitle-1></p>
       </v-container>
 
 
@@ -25,7 +25,7 @@
                <v-img
               width="550">
               <!-- use of thumbnails to give the user a glumps of the show -->
-              <v-flex>
+              <v-flex> <!--For the responsiveness of the slide -->
                 <img :src="'https://akamaividz2.zee5.com/image/upload/w_297,h_446,c_scale,f_auto,q_auto/resources/0-0-227385/portrait/1920x770_520818177.jpg'"
                 width="220px"
                 class="responsive2"
@@ -112,7 +112,7 @@
 
       <v-container style="border-bottom: 1.5px solid hsla(0,0%,100%,.5)" class="font-weight-thin">
 
-        <subtitle-1>Trending on ZEE5</subtitle-1>
+       <p class="font-weight-thin"> Trending on ZEE5</p>
 
       </v-container>
 

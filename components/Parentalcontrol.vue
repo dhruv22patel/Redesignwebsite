@@ -2,13 +2,19 @@
   <v-row justify="center">
     <v-dialog v-model="dialog" width="600px">
       <template v-slot:activator="{ on, attrs }">
+        <v-fab-transition>
         <v-btn
-          icon
           v-bind="attrs"
           v-on="on"
+          v-show="!hidden"
+          color="#CFA4CC"
+          fab
+          x-small
+          
         >
          <v-icon>mdi-account</v-icon><!-- icon -->
         </v-btn>
+        </v-fab-transition>
       </template>
       <v-card>
         <v-card-title>

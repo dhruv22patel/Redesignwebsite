@@ -1,5 +1,18 @@
     <template >
-      <v-card flat elevation="0">
+    
+      <v-card class="ml-5" style="background-color: #220B27" 
+      flat>
+    
+          <v-fab-transition><!--for the coloured circle behind the icons -->
+              <v-btn
+                v-show="!hidden"
+                color="#CFA4CC"
+                fab
+                small
+              >
+                <v-icon>mdi-filter</v-icon><!--Filter icon -->
+              </v-btn>
+            </v-fab-transition>
         <v-bottom-navigation
           :value="activeBtn"
           color="white"
@@ -9,6 +22,8 @@
           max-width="1600"
           
           >
+
+          
           <!-- second step of the header -->
           <v-btn>
             <span>Home</span>

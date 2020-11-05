@@ -2,14 +2,14 @@
   <!--Your App Starts Here -->
   <v-app id="inspire">
     
-   <v-card class="overflow-hidden">
+   <v-card class="overflow-hidden" style="background-color: #220B27" flat><!--The main colors for the Header -->
       
       <App/> <!-- header -->
       
      
         
         
-          <FootApp/> <!--thing bellow header -->
+          <SecondaryHeader/> <!--thing bellow header -->
    </v-card>
        
 
@@ -20,7 +20,7 @@
     </v-content>
     
     <!-- Footer -->
-    <footercopy/>
+    <MainFooter/>
  
   </v-app>
 </template>

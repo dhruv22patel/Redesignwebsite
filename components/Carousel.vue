@@ -11,7 +11,7 @@
   
   
   >
-  <v-flex>
+  <v-flex><!--for better responsiveness -->
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
