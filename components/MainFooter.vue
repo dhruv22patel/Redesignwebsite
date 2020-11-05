@@ -14,8 +14,8 @@
       <v-card-text class="white--text ml-4"><!-- start of the footer -->
       <v-row>
         <v-col
-        md="7"
-        cols="4">
+        md="12"
+        cols="12">
         <p class="font-weight-black"><!-- thick font(roboto)-->
         About us 
         <br><br>Help Center
@@ -26,16 +26,7 @@
         <v-col>
           <template>
             
-            <img
-              class="VuetifyLog"
-              alt="Vuetify Logo"
-              src="logo2222-01.png"
-            ><!--apple store logo -->
-              <img
-              class="VuetifyLog"
-              alt="Vuetify Logo"
-              src="logo2222-02.png"
-            ><!-- play store logo-->
+
             
             
             </template>
